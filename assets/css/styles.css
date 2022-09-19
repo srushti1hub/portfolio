@@ -171,7 +171,10 @@ img {
     transition: 0.3s;
   }
 }
-
+.blog__img{
+  width: 150px;
+  margin: 0 auto;
+}
 .nav__list {
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
@@ -785,7 +788,6 @@ img {
   .qualification__data {
     gap: 0.5rem;
   }
-
 }
 
 @media screen and (min-width: 568px) {
@@ -816,6 +818,9 @@ img {
     justify-content: center;
   }
 
+  .blog__img{
+    width: 200px;
+  }
 }
   @media screen and (min-width: 768px) {
     .container {
