@@ -95,8 +95,7 @@
 
         <section class="skills section" id="skills">
             <h2 class="section__title">Skills</h2>
-            <span class="section__subtitle"> <a href="#skills" class="home__social-icon"><i
-                        class="fa-solid fa-code fa-fw"></i></a></span>
+            <span class="section__subtitle">My Techstack</span>
             <div class="container grid">
                 <div>
                     <img class="skills__img" src="assets/images/illu-11.png" alt="">
@@ -235,11 +234,6 @@
                         <i class="uil uil-graduation-cap qualification__icon"></i>
                         Education
                     </div>
-
-                    <div class="qualification__button button--flex" data-target="#work">
-                        <i class="uil uil-briefcase-alt qualification__icon"></i>
-                        Coding
-                    </div>
                 </div>
 
                 <div class="qualification__sections">
@@ -290,8 +284,15 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="qualification__content" data-content id="work">
+                </div>
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex qualification__active" data-target='#education'>
+                        <i class="uil uil-brackets-curly qualification__icon"></i>
+                        Coding
+                    </div>
+                </div>
+                <div class="qualification__sections ">
+                    <div class="qualification__content qualification__active" data-content id="work">
                         <div class="qualification__data">
                             <div>
                                 <h3 class="qualification__title">Web3 Developer</h3>
@@ -339,7 +340,6 @@
                         </div>
 
                     </div>
-
                 </div>
             </div>
         </section>
