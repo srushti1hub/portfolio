@@ -425,10 +425,6 @@ img {
 .qualification__button {
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
-  cursor: pointer;
-}
-
-.qualification__button:hover {
   color: var(--first-color);
 }
 
@@ -474,19 +470,6 @@ img {
   height: 100%;
   background-color: var(--first-color);
   transform: translate(6px, -7px);
-}
-
-.qualification__content[data-content] {
-  display: none;
-  grid-template-columns: 3fr 2fr;
-}
-
-.qualification__active[data-content] {
-  display: block;
-}
-
-.qualification__button.qualification__active {
-  color: var(--first-color);
 }
 
 /* Active Modal */
