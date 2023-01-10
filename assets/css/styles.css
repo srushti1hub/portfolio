@@ -173,7 +173,7 @@ img {
 }
 .blog__img{
   width: 150px;
-  margin: 0 auto;
+  margin: auto;
 }
 .nav__list {
   grid-template-columns: repeat(3, 1fr);
@@ -802,7 +802,10 @@ img {
   }
 
   .blog__img{
-    width: 200px;
+    width: 20%;
+    display: flex;
+    margin: auto;
+    margin-bottom: 50px;
   }
 }
   @media screen and (min-width: 768px) {
@@ -923,7 +926,6 @@ img {
     }
     .project__container {
       background-color: var(--first-color-second);
-      border-radius: 1rem;
       padding: 3rem 2.5rem 0;
       grid-template-columns: 1fr max-content;
       column-gap: 3rem;
